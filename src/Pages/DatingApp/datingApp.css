@@ -1,7 +1,17 @@
+
+.container{
+    display: flex;
+    align-items: space-around;
+}
+
+.appOpen{
+    overflow: hidden;
+}
 .DatingApp{
     background: linear-gradient(to left, #FC9483, #FD5DA8);
     height: 100vh;
     width: 100%;
+    overflow: hidden;
 }
 
 .Heart-Area{

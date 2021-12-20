@@ -1,0 +1,80 @@
+.content{
+    display: flex;
+    margin: 4%;
+    
+}
+
+.contentImg{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    align-items:center;
+    font-weight:bold;
+    font-size: 4rem;
+    color:#ED11A2;
+}
+
+.title2{
+    text-align: center;
+    margin: 5% 0;
+    font-weight:bold;
+    font-size: 4rem;
+    color:#ED11A2;
+}
+
+p{
+    font-weight:lighter;
+    font-size: 1.5rem;
+    text-align:left;
+    margin: 5% 10%;  
+    color:#FF78E1;
+    font-weight:bold;
+}
+
+.btn1 {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #ED11A2;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn1:hover {
+    background: #FF78E1;
+    text-decoration: none;
+  }
+
+.cards{
+    margin: 0 30px;
+    padding: 4%;
+    background-color:#FF78E1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.MuiAvatar-img{
+    margin: auto;
+    border-radius: 300px;
+    max-width: 20%;
+    padding: inherit;
+}
+
+.userPic{
+    padding-bottom: 2%;
+}
+
+.userText{
+    padding: 2% 2%;
+    color:#ffffff;
+}
+
+.userName{
+    padding: 1% 2%;
+    color:#ffffff;
+}

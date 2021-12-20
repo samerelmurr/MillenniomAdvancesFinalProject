@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color:#ED11A2;
+    padding-bottom: 1%;
+}
+
+.collapsible{
+    text-align: center;
+    margin: 4% 0;
+}
+
+.collapsible .btn{
+    text-align: left;
+    background:#ED11A2;
+    border: unset;
+    cursor: pointer;
+    width: 70%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 25px;
+    padding: 1rem;
+
+}
+
+.collapsible .btn:hover{
+    color: #fff;
+    background: #FF78E1;
+}
+
+.collapsible .content{
+    display:block;
+    border: 10px solid #FF78E1;
+    padding: 0.5rem;
+    
+    .title{
+        color:#FF78E1;
+        text-align: left;
+        padding-left: 10%;
+        padding-bottom: 2%;
+    }
+    
+}
+
+.collapsible .content-parent{
+    height: 0px;
+    overflow: hidden;
+    transition: height ease 0.3s;
+}
